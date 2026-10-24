@@ -1,0 +1,43 @@
+.flash-animate {
+  box-shadow: 0 0 0 1px rgba(255, 214, 231, 0.7), 0 0 38px rgba(255, 79, 163, 0.4);
+  transition: box-shadow 0.3s ease;
+}
+
+.heart {
+  font-size: 1.2rem;
+  text-shadow: 0 0 14px rgba(255, 214, 231, 0.9);
+}
+
+.star {
+  font-size: 1rem;
+  color: rgba(255, 214, 231, 0.8);
+}
+
+.promise-card.active,
+.application-card.active {
+  border-color: rgba(255, 214, 231, 0.72);
+  box-shadow: 0 0 26px rgba(255, 79, 163, 0.18);
+}
+
+.day-card:focus-visible,
+.promise-card:focus-visible,
+.envelope-button:focus-visible,
+.primary-btn:focus-visible,
+.secondary-btn:focus-visible,
+.close-letter:focus-visible,
+.nav-toggle:focus-visible {
+  outline: 2px solid rgba(255, 214, 231, 0.9);
+  outline-offset: 3px;
+}
+
+.selected-day-header {
+  margin-bottom: 0.75rem;
+}
+
+.progress-summary {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
